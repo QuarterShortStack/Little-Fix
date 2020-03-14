@@ -1,0 +1,38 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+README.txt
+gradlew.bat
+gradlew
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle.properties
+build.gradle
+forge-1.14.4-28.2.0-mdk.zip
+LICENSE.txt
+CREDITS.txt
+changelog.txt
+dependency/Cyclic-1.14.4-0.1.3.jar
+dep/
