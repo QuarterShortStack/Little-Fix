@@ -6,7 +6,6 @@ import com.lothrazar.cyclic.util.UtilEntity;
 import com.lothrazar.cyclic.util.UtilItemStack;
 import com.lothrazar.cyclic.util.UtilParticle;
 import com.lothrazar.cyclic.util.UtilSound;
-import com.qss.lilfix.LittleFix;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -38,7 +37,6 @@ public abstract class CharmBase extends ItemBase {
 
   @Override
   public void inventoryTick(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
-	  LittleFix.LOGGER.info("OMG IT WORKED!!!");
     if (!this.canUse(stack)) {
       return;
     }

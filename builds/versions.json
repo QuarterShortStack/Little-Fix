@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/QuarterShortStack/Little-Fix/",
+  "1.14.4": {
+    "1.0.0":"Public 1.14.4 release"
+  },
+  "promos": {
+    "1.14.4-latest": "1.0.0",
+    "1.14.4-recommended": "1.0.0"
+  }
+}
